@@ -28,7 +28,7 @@ export const Pokemon = () =>{
                 <figure>
                     <img src={apiData.sprites.other['official-artwork'].front_default} alt={apiData.name} />
                 </figure>
-                <h1>{apiData.name}</h1>
+                <h1 className="img-name">{apiData.name}</h1>
             </li>
         </ul>
       </section>
